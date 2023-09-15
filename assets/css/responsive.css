@@ -1,0 +1,198 @@
+@media only screen and (max-width: 1024px) {
+    .navbar {
+        background-color: red;
+    }
+
+    .review img {
+        left: 40%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .navbar {
+        background-color: blue;
+        display: none;
+    }
+
+    /* .logo{
+        position: absolute;
+        left: 2%;
+        top: 4%;
+    } */
+    .nav-item ul li a {
+        font-size: 1.3rem;
+        padding: 10px;
+    }
+
+    .btn {
+        font-size: 1.3rem;
+    }
+
+    .h-primary {
+        font-size: 2.5rem;
+    }
+
+    .h-secondary {
+        font-size: 2rem;
+    }
+
+    .content {
+        top: 55%;
+    }
+
+    .para {
+        font-size: 0.8rem;
+    }
+
+    .h-turnary {
+        font-size: 1.5rem;
+    }
+
+    .about-content p {
+        line-height: 20px;
+    }
+
+    .about-content h3,
+    p,
+    button,
+    h5 {
+        margin-top: 15px;
+    }
+
+    .explore-section>p {
+        font-size: 1rem;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        /* background-color:green; */
+        display: none;
+    }
+
+    .nav-item ul {
+        flex-direction: column;
+    }
+
+    .h-primary {
+        font-size: 1.5rem;
+    }
+
+    .h-secondary {
+        font-size: 1.2rem;
+    }
+
+    .para {
+        font-size: 0.6rem;
+    }
+
+    .content button {
+        font-size: 1rem;
+    }
+
+    .content {
+        top: 35%;
+        left: 5%;
+    }
+
+    .menu-container {
+        justify-content: space-evenly;
+    }
+
+    .about-container {
+        flex-direction: column;
+    }
+
+    .about-img {
+        width: 90%;
+    }
+
+    .about-img img {
+        width: 100%;
+        left: 0;
+    }
+
+    .about-content {
+        width: 80%;
+    }
+
+    .about-content h3,
+    p,
+    button,
+    h5 {
+        margin-top: 10px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .review img {
+        left: 35%;
+    }
+
+    .review img {
+        width: 70px;
+    }
+
+    .footer-section {
+        flex-direction: column-reverse;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .navbar {
+        /* background-color:orange; */
+        display: none;
+    }
+
+    .nav-item ul li a {
+        font-size: 1rem;
+        padding: 5px;
+    }
+
+    .btn {
+        font-size: 1rem;
+    }
+
+    .content {
+        top: 40%;
+    }
+
+    .h-primary {
+        font-size: 1.2rem;
+    }
+
+    .h-secondary {
+        font-size: 1rem;
+    }
+
+    .para {
+        font-size: 0.6rem;
+    }
+
+    .content button {
+        font-size: 0.8rem;
+    }
+
+    .h-turnary {
+        font-size: 1rem;
+    }
+
+    .about-content p {
+        line-height: 15px;
+    }
+
+    .h-5 {
+        font-size: 0.625rem;
+    }
+
+    .explore-section>p {
+        font-size: 0.8rem;
+    }
+
+    .card {
+        margin: 5px;
+    }
+}

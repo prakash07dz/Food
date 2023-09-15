@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Noto+Serif:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+/* UTILITY CLASSES */
+.container-fluid {
+    width: 100%;
+    /* padding: 0 20px; */
+}
+
+.container {
+    width: 100%;
+    max-width: 1450px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+.d-flex {
+    display: flex;
+}
+.flex-row-rev{
+    flex-direction: row-reverse;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.h-primary {
+    font-family: 'Noto Serif', serif;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.h-secondary {
+    font-size: 2.5rem;
+    font-family: 'Fira Sans', sans-serif;
+    color: green;
+    letter-spacing: 2px;
+}
+.h-turnary{
+    font-size: 2.5rem;
+    font-family: 'Fira Sans', sans-serif;
+    color: rgb(49, 159, 49);
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 10px;
+}
+.h-5{
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+
+.btn {
+    font-size: 1.5rem;
+    font-family: 'Fira Sans', sans-serif;
+    background-color: yellow;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    cursor: pointer;
+}
+.btn-sm{
+    font-size: 1rem!important ;
+}
+
+.btn:hover {
+    background-color: white;
+    border: 1px solid black;
+}
+.para{
+    color: white;
+    font-size: 1rem;
+    font-family: 'Fira Sans', sans-serif;
+    letter-spacing: 1px;
+}
+
+/* HEADER STYLING */
+.navbar {
+    background-color: rgb(63, 62, 62);
+    padding: 0px 20px 0px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.logo {
+    margin-top: 10px;
+}
+
+.nav-item ul button {
+    margin: 0;
+}
+
+.nav-item ul li a {
+    padding: 20px;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.5rem;
+}
+
+.nav-item ul li a:hover {
+    color: yellow;
+}
+
+/* HOME SECTION */
+#home {
+    background: url(../images/bg/bg-1.jpg) no-repeat center;
+    background-size: cover;
+    height: 90vh;
+    /* margin:0px 20px 0px 20px; */
+}
+
+.content {
+    position: absolute;
+    top: 40%;
+    left: 7%;
+}
+
+.content h1 span {
+    color: yellow;
+}
+
+.content h1,
+h2,
+p,
+button {
+    margin-top: 10px;
+}
+
+/* MENU SECTION */
+.menu-container{
+    flex-wrap: wrap;
+}
+.menu{
+    margin: 20px;
+}
+.img-container{
+    width: 150px;
+}
+.img-container:hover{
+    background-color: orange;
+    border: 1px solid green;
+    border-radius: 50%;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+.menu h4{
+    cursor: pointer;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
+/* ABOUT US SECTION */
+.about-container{
+    background-color: #222;
+}
+.about-container button{
+   margin-bottom: 10px;
+}
+.about-img{
+    width: 60%;
+   
+}
+.about-img img{
+    object-fit: cover;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.about-content{
+    width: 40%;
+    position: relative;
+   right: 3%;
+}
+.about-content p{
+    line-height: 25px;
+}
+.about-content h3,p,button,h5{
+    margin-top: 20px;
+}
+.content-2{
+    left: 5% !important;
+}
+/* EXPLORE SECTION*/
+.explore-section >p{
+color: black;
+font-size: 1.2rem;
+}
+.cards{
+    width: 100%;
+    flex-wrap: wrap;
+}
+.card{
+    width: 30%;
+    margin: 20px;
+    border: 1px solid #979595;
+    background-color: rgb(32, 31, 31);
+    border-radius: 2%;
+    overflow: hidden;
+}
+.card img{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 2%;
+    transition: transform 0.3s ease;
+}
+.card:hover img{
+    transform: scale(1.1);
+    overflow: hidden;
+}
+.card-text{
+    padding:10px;
+}
+.card-text .para, .light-para{
+    color: white!important;
+}
+.light-para{
+    font-family: 'Noto Serif', serif;
+    font-size: 0.8rem;
+}
+/* REVIEW SECTION */
+.review {
+height: 40vh;
+width: 60%;
+margin: auto;
+background-color: black;
+border-radius: 10px;
+}
+.review img{
+    width: 100px;
+    border-radius: 50%;
+   position: relative;
+   left: 45%;
+   top: 5%;
+}
+.review  h2{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+.review p{
+    text-align: center;
+}
+.circle{
+    position: relative;
+    top: 20%;
+}
+/* FOOTER SECTION */
+.footer-section{
+    height: 200px;
+    justify-content: space-around;
+   background-color: rgb(239, 239, 239);
+
+}
+.footer-section p{
+    color: black;
+}
+.footer-section h2{
+    text-decoration: underline;
+}   
